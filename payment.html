@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+    <div class="payment-card" id="payment-form-container">
+        <h1>Checkout</h1>
+        <form id="payment-form">
+            <div class="form-group">
+                <label for="total-amount">Total Amount:</label>
+                <span id="total-amount">$0.00</span>
+            </div>
+            <div class="form-group">
+                <label for="converted-amount">Amount in Your Currency:</label>
+                <span id="converted-amount">0.00</span>
+            </div>
+            <div class="form-group">
+                <label for="charges">Charges:</label>
+                <span id="charges">$0.00</span>
+            </div>
+            <div class="form-group">
+                <label for="wallet-address">Your Wallet Address:</label>
+                <input type="text" id="wallet-address" placeholder="https://ilp.interledger-test.dev/buyer" required>
+            </div>
+            <button type="submit">Pay with Open Payments</button>
+        </form>
+    </div>
+
+    <div class="payment-card" id="payment-complete" style="display: none;">
+        <h1>Payment Complete</h1>
+        <p>Thank you for your payment!</p>
+        <div class="form-group">
+            <label>Transaction ID:</label>
+            <span id="transaction-id"></span>
+        </div>
+        <div class="form-group">
+            <label>Amount Paid:</label>
+            <span id="amount-paid"></span>
+        </div>
+        <button id="return-btn">Return to Shop</button>
+    </div>
+
+    <script src="payment.js"></script>
+</body>
+</html>

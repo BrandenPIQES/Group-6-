@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name":" LD01 ADIDAS SHOES",
+        "price": 2000,
+        "image": "Images/adidas.jpeg"
+    },
+    {
+        "id": 2,
+        "name":" LD02  DRESS",
+        "price": 250,
+        "image": "Images/dress.jpeg"
+    },
+    {
+        "id": 3,
+        "name":" LD03 LEATRHER BAG",
+        "price": 290,
+        "image": "Images/leatherBag.webp"
+    },
+    {
+        "id": 4,
+        "name":" LD04 RED DRESS",
+        "price": 200,
+        "image": "Images/redDress.jpg"
+    },
+    {
+        "id": 5,
+        "name":" LD05 NIKE SHOES",
+        "price": 300,
+        "image": "Images/nike.jpeg"
+    },
+    {
+        "id": 6,
+        "name":" LD06 GREY WATCH",
+        "price": 200,
+        "image": "Images/watchGrey.jpeg"
+    },
+    {
+        "id": 7,
+        "name":" LD07 SUN GLASSES",
+        "price": 200,
+        "image": "Images/sunglasses.webp"
+    },
+    {
+        "id": 8,
+        "name":" LD08 WATCH",
+        "price": 200,
+        "image": "Images/watch.jpg"
+    }
+
+]
